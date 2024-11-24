@@ -11,8 +11,8 @@ abstract class Shape {
     }
 }
 class Rectangle extends Shape{
-    private double width;
-    private double height;
+    public double width;
+    public double height;
     public Rectangle(double width, double height,Color color) {
         this.name = "Rectangle";
         this.width = width;
@@ -30,9 +30,9 @@ class Rectangle extends Shape{
     }
 }
 class Triangle extends Shape{
-    private double a;
-    private double b;
-    private double c;
+    public double a;
+    public double b;
+    public double c;
     public Triangle(double a, double b, double c,Color color) {
         this.name = "Triangle";
         this.a = a;
@@ -48,13 +48,5 @@ class Triangle extends Shape{
     @Override
     public double getPerimeter() {
         return a + b + c;
-    }
-}
-class ShapeDescriber {
-    public void describe(Shape shape) {
-        System.out.println(shape.getName() + ":");
-        System.out.println("Pole: " + shape.getArea());
-        System.out.println("Obwód: " + shape.getPerimeter());
-        System.out.println("kolor " + shape.getColorDescription());
     }
 }

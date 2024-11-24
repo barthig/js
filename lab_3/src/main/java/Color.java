@@ -12,7 +12,7 @@ public record Color(int red, int green, int blue, float alpha) {
             throw new java.lang.IllegalArgumentException(
                     String.format("Invalid dimensions: blue"));
         }
-        if (alpha < 0 || alpha > 255) {
+        if (alpha < 0 || alpha > 1) {
             throw new java.lang.IllegalArgumentException(
                     String.format("Invalid dimensions: alpha"));
         }
