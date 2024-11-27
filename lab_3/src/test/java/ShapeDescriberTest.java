@@ -12,7 +12,7 @@ public class ShapeDescriberTest {
         when(shape.getColorDescription()).thenReturn("Red: 255, Green: 0, Blue: 0, Alpha: 1.0");
 
         ShapeDescriber describer = new ShapeDescriber();
-        describer.describe(shape);
+        describer.describedrawingshape(shape);
 
         verify(shape).getName();
         verify(shape).getArea();

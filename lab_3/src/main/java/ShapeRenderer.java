@@ -5,9 +5,9 @@ public class ShapeRenderer {
     public void renderShapes(List<Shape> shapes) {
         for (Shape shape : shapes) {
             System.out.println("Rysowanie figury:");
-            System.out.println("Typ figury: " + shape.getName());
-            System.out.println("Kolor figury: " + shape.getColorDescription());
-            System.out.println("Reprezentacja graficzna:");
+            System.out.println("Typ: " + shape.getName());
+            System.out.println("Kolor: " + shape.getColorDescription());
+            System.out.println("Graficzna reprezentacja:");
             drawingShape(shape);
             System.out.println(resetColor());
             System.out.println();
@@ -24,7 +24,7 @@ public class ShapeRenderer {
     }
 
     private void drawingRectangle(Rectangle rectangle) {
-        String colorCode = getColorCode(rectangle.color);
+        String colorCode = getColorCodeofShape(rectangle.color);
         for (int i = 0; i < (int)rectangle.height; i++) {
             System.out.println(colorCode + "* ".repeat((int)rectangle.width) + resetColor());
         }
@@ -39,7 +39,7 @@ public class ShapeRenderer {
 
         int height = (int)Math.round((2 * area) / base);
 
-        String colorCode = getColorCode(triangle.color);
+        String colorCode = getColorCodeofShape(triangle.color);
 
         for (int i = 1; i <= height; i++) {
             int stars = (int)Math.round((i * base) / height);
@@ -47,7 +47,7 @@ public class ShapeRenderer {
         }
     }
 
-    private String getColorCode(Color color) {
+    private String getColorCodeofShape(Color color) {
         return String.format("\u001B[38;2;%d;%d;%dm", color.red(), color.green(), color.blue());
     }
 
