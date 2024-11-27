@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ShapeRendererTest" time="0.003" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ShapeRendererTest" time="0.004" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\Bartek\AppData\Local\Temp\surefire15307380700754254487\surefirebooter-20241124142704289_3.jar C:\Users\Bartek\AppData\Local\Temp\surefire15307380700754254487 2024-11-24T14-27-04_039-jvmRun1 surefire-20241124142704289_1tmp surefire_0-20241124142704289_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Bartek\AppData\Local\Temp\surefire6396301033779841688\surefirebooter-20241127124107684_3.jar C:\Users\Bartek\AppData\Local\Temp\surefire6396301033779841688 2024-11-27T12-41-07_561-jvmRun1 surefire-20241127124107684_1tmp surefire_0-20241127124107684_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Bartek\IdeaProjects\js\target\test-classes;C:\Users\Bartek\IdeaProjects\js\target\classes;C:\Users\Bartek\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\Bartek\.m2\repository\org\slf4j\slf4j-simple\2.0.7\slf4j-simple-2.0.7.jar;C:\Users\Bartek\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Bartek\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Bartek\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Bartek\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Bartek\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Bartek\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Bartek\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Bartek\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\Bartek\.m2\repository\org\mockito\mockito-core\4.11.0\mockito-core-4.11.0.jar;C:\Users\Bartek\.m2\repository\net\bytebuddy\byte-buddy\1.12.19\byte-buddy-1.12.19.jar;C:\Users\Bartek\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.19\byte-buddy-agent-1.12.19.jar;C:\Users\Bartek\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Bartek\AppData\Local\Temp\surefire15307380700754254487\surefirebooter-20241124142704289_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Bartek\AppData\Local\Temp\surefire6396301033779841688\surefirebooter-20241127124107684_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
@@ -58,11 +58,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testRenderShapes" classname="ShapeRendererTest" time="0.002">
+  <testcase name="testRenderShapes" classname="ShapeRendererTest" time="0.003">
     <system-out><![CDATA[Rysowanie figury:
-Typ figury: Rectangle
-Kolor figury: RED: 255; GREEN: 0; BLUE: 0 Alpha: 0,00
-Reprezentacja graficzna:
+Typ: Rectangle
+Kolor: RED : 255; GREEN : 0; BLUE : 0 Alpha : 0,00
+Graficzna reprezentacja:
 &amp#27;[38;2;255;0;0m* * * * &amp#27;[0m
 &amp#27;[38;2;255;0;0m* * * * &amp#27;[0m
 &amp#27;[38;2;255;0;0m* * * * &amp#27;[0m
@@ -71,9 +71,9 @@ Reprezentacja graficzna:
 &amp#27;[0m
 
 Rysowanie figury:
-Typ figury: Triangle
-Kolor figury: RED: 0; GREEN: 255; BLUE: 0 Alpha: 0,00
-Reprezentacja graficzna:
+Typ: Triangle
+Kolor: RED : 0; GREEN : 255; BLUE : 0 Alpha : 0,00
+Graficzna reprezentacja:
  &amp#27;[38;2;0;255;0m* * * &amp#27;[0m
 &amp#27;[38;2;0;255;0m* * * * * &amp#27;[0m
 &amp#27;[0m

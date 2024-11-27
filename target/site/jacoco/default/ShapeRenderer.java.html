@@ -5,9 +5,9 @@
     public void renderShapes(List&lt;Shape&gt; shapes) {
 <span class="fc bfc" id="L6" title="All 2 branches covered.">        for (Shape shape : shapes) {</span>
 <span class="fc" id="L7">            System.out.println(&quot;Rysowanie figury:&quot;);</span>
-<span class="fc" id="L8">            System.out.println(&quot;Typ figury: &quot; + shape.getName());</span>
-<span class="fc" id="L9">            System.out.println(&quot;Kolor figury: &quot; + shape.getColorDescription());</span>
-<span class="fc" id="L10">            System.out.println(&quot;Reprezentacja graficzna:&quot;);</span>
+<span class="fc" id="L8">            System.out.println(&quot;Typ: &quot; + shape.getName());</span>
+<span class="fc" id="L9">            System.out.println(&quot;Kolor: &quot; + shape.getColorDescription());</span>
+<span class="fc" id="L10">            System.out.println(&quot;Graficzna reprezentacja:&quot;);</span>
 <span class="fc" id="L11">            drawingShape(shape);</span>
 <span class="fc" id="L12">            System.out.println(resetColor());</span>
 <span class="fc" id="L13">            System.out.println();</span>
@@ -24,7 +24,7 @@
 <span class="fc" id="L24">    }</span>
 
     private void drawingRectangle(Rectangle rectangle) {
-<span class="fc" id="L27">        String colorCode = getColorCode(rectangle.color);</span>
+<span class="fc" id="L27">        String colorCode = getColorCodeofShape(rectangle.color);</span>
 <span class="fc bfc" id="L28" title="All 2 branches covered.">        for (int i = 0; i &lt; (int)rectangle.height; i++) {</span>
 <span class="fc" id="L29">            System.out.println(colorCode + &quot;* &quot;.repeat((int)rectangle.width) + resetColor());</span>
         }
@@ -39,7 +39,7 @@
 
 <span class="fc" id="L40">        int height = (int)Math.round((2 * area) / base);</span>
 
-<span class="fc" id="L42">        String colorCode = getColorCode(triangle.color);</span>
+<span class="fc" id="L42">        String colorCode = getColorCodeofShape(triangle.color);</span>
 
 <span class="fc bfc" id="L44" title="All 2 branches covered.">        for (int i = 1; i &lt;= height; i++) {</span>
 <span class="fc" id="L45">            int stars = (int)Math.round((i * base) / height);</span>
@@ -47,7 +47,7 @@
         }
 <span class="fc" id="L48">    }</span>
 
-    private String getColorCode(Color color) {
+    private String getColorCodeofShape(Color color) {
 <span class="fc" id="L51">        return String.format(&quot;\u001B[38;2;%d;%d;%dm&quot;, color.red(), color.green(), color.blue());</span>
     }
 
