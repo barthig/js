@@ -8,7 +8,7 @@
         <!-- Konfiguracja połączenia z bazą danych -->
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/java</property>
-        <property name="hibernate.connection.username">Admin</property>
+        <property name="hibernate.connection.username">root</property>
 
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.show_sql">true</property>
