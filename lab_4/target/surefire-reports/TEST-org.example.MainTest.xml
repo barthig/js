@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.MainTest" time="4.294" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\Bartek\IdeaProjects\js\lab_4\target\test-classes;C:\Users\Bartek\IdeaProjects\js\lab_4\target\classes;C:\Users\Bartek\.m2\repository\org\hibernate\orm\hibernate-core\6.6.3.Final\hibernate-core-6.6.3.Final.jar;C:\Users\Bartek\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\Bartek\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Bartek\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\Bartek\.m2\repository\org\hibernate\common\hibernate-commons-annotations\7.0.3.Final\hibernate-commons-annotations-7.0.3.Final.jar;C:\Users\Bartek\.m2\repository\io\smallrye\jandex\3.2.0\jandex-3.2.0.jar;C:\Users\Bartek\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Bartek\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\Bartek\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\Bartek\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\Bartek\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\Bartek\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\Bartek\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\Bartek\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\Bartek\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\Bartek\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Bartek\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\Bartek\.m2\repository\com\mysql\mysql-connector-j\8.2.0\mysql-connector-j-8.2.0.jar;C:\Users\Bartek\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\Bartek\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Bartek\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Bartek\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Bartek\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Bartek\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Bartek\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Bartek\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Bartek\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\Bartek\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Bartek\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Bartek\AppData\Local\Temp\surefire5320425105047646673\surefirebooter-20241206180950145_3.jar C:\Users\Bartek\AppData\Local\Temp\surefire5320425105047646673 2024-12-06T18-09-50_020-jvmRun1 surefire-20241206180950145_1tmp surefire_0-20241206180950145_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Bartek\IdeaProjects\js\lab_4\target\test-classes;C:\Users\Bartek\IdeaProjects\js\lab_4\target\classes;C:\Users\Bartek\.m2\repository\org\hibernate\orm\hibernate-core\6.6.3.Final\hibernate-core-6.6.3.Final.jar;C:\Users\Bartek\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\Bartek\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Bartek\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\Bartek\.m2\repository\org\hibernate\common\hibernate-commons-annotations\7.0.3.Final\hibernate-commons-annotations-7.0.3.Final.jar;C:\Users\Bartek\.m2\repository\io\smallrye\jandex\3.2.0\jandex-3.2.0.jar;C:\Users\Bartek\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Bartek\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\Bartek\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\Bartek\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\Bartek\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\Bartek\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\Bartek\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\Bartek\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\Bartek\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\Bartek\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Bartek\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\Bartek\.m2\repository\com\mysql\mysql-connector-j\8.2.0\mysql-connector-j-8.2.0.jar;C:\Users\Bartek\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\Bartek\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Bartek\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Bartek\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Bartek\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Bartek\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Bartek\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Bartek\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Bartek\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\Bartek\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Bartek\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Bartek"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Bartek\IdeaProjects\js\lab_4"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Bartek\AppData\Local\Temp\surefire5320425105047646673\surefirebooter-20241206180950145_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
+    <property name="user.name" value="Bartek"/>
+    <property name="stdout.encoding" value="Cp1250"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Bartek\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Bartek\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.5"/>
+    <property name="user.dir" value="C:\Users\Bartek\IdeaProjects\js\lab_4"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\QT Lite\QTSystem;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\TDM-GCC-64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Users\Bartek\AppData\Local\Microsoft\WindowsApps;C:\Users\Bartek\AppData\Local\Microsoft\WindowsApps;C:\Users\Bartek\.dotnet\tools;C:\Users\Bartek\Desktop\apache-maven-3.9.9\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1250"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.5+9-LTS-239"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testMainExecution" classname="org.example.MainTest" time="4.292">
+    <system-out><![CDATA[Hibernate: 
+    insert 
+    into
+        triangle
+        (a, b, c, red, green, blue, alpha, name) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        rectangle
+        (red, green, blue, alpha, height, name, witdh) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        circle
+        (red, green, blue, alpha, name, radius) 
+    values
+        (?, ?, ?, ?, ?, ?)
+pobrane figury
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.a,
+        t1_0.b,
+        t1_0.c,
+        t1_0.red,
+        t1_0.green,
+        t1_0.blue,
+        t1_0.alpha,
+        t1_0.name 
+    from
+        triangle t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        r1_0.id,
+        r1_0.red,
+        r1_0.green,
+        r1_0.blue,
+        r1_0.alpha,
+        r1_0.height,
+        r1_0.name,
+        r1_0.witdh 
+    from
+        rectangle r1_0 
+    where
+        r1_0.id=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.red,
+        c1_0.green,
+        c1_0.blue,
+        c1_0.alpha,
+        c1_0.name,
+        c1_0.radius 
+    from
+        circle c1_0 
+    where
+        c1_0.id=?
+org.example.Triangle@5766f830
+org.example.Rectangle@5e5616f2
+org.example.Circle@1b33bbbe
+Hibernate: 
+    update
+        triangle 
+    set
+        a=?,
+        b=?,
+        c=?,
+        red=?,
+        green=?,
+        blue=?,
+        alpha=?,
+        name=? 
+    where
+        id=?
+Hibernate: 
+    update
+        rectangle 
+    set
+        red=?,
+        green=?,
+        blue=?,
+        alpha=?,
+        height=?,
+        name=?,
+        witdh=? 
+    where
+        id=?
+Hibernate: 
+    update
+        circle 
+    set
+        red=?,
+        green=?,
+        blue=?,
+        alpha=?,
+        name=?,
+        radius=? 
+    where
+        id=?
+
+ po uaktualnieniu
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.a,
+        t1_0.b,
+        t1_0.c,
+        t1_0.red,
+        t1_0.green,
+        t1_0.blue,
+        t1_0.alpha,
+        t1_0.name 
+    from
+        triangle t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        r1_0.id,
+        r1_0.red,
+        r1_0.green,
+        r1_0.blue,
+        r1_0.alpha,
+        r1_0.height,
+        r1_0.name,
+        r1_0.witdh 
+    from
+        rectangle r1_0 
+    where
+        r1_0.id=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.red,
+        c1_0.green,
+        c1_0.blue,
+        c1_0.alpha,
+        c1_0.name,
+        c1_0.radius 
+    from
+        circle c1_0 
+    where
+        c1_0.id=?
+UpdatedTriangleareaNaN, perimeter: 18.0
+UpdatedRectangle area30.0, perimeter:22.0
+UpdatedCircle area 78.53981633974483, perimeter:31.41592653589793
+
+ po usuwanie figur
+Hibernate: 
+    delete 
+    from
+        triangle 
+    where
+        id=?
+Hibernate: 
+    delete 
+    from
+        rectangle 
+    where
+        id=?
+Hibernate: 
+    delete 
+    from
+        circle 
+    where
+        id=?
+
+ potwierdzenie po usuwaniu figur
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.a,
+        t1_0.b,
+        t1_0.c,
+        t1_0.red,
+        t1_0.green,
+        t1_0.blue,
+        t1_0.alpha,
+        t1_0.name 
+    from
+        triangle t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        r1_0.id,
+        r1_0.red,
+        r1_0.green,
+        r1_0.blue,
+        r1_0.alpha,
+        r1_0.height,
+        r1_0.name,
+        r1_0.witdh 
+    from
+        rectangle r1_0 
+    where
+        r1_0.id=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.red,
+        c1_0.green,
+        c1_0.blue,
+        c1_0.alpha,
+        c1_0.name,
+        c1_0.radius 
+    from
+        circle c1_0 
+    where
+        c1_0.id=?
+traingle deleted
+rectangle deleted
+circle deleted
+]]></system-out>
+  </testcase>
+</testsuite>
