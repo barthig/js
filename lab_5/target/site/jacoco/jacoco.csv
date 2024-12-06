@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+lab4,org.example,Main,6,222,3,3,1,43,4,1,1,1
+lab4,org.example,Circle,0,38,0,0,0,12,0,7,0,7
+lab4,org.example,Shape,7,50,0,0,3,17,2,7,2,7
+lab4,org.example,Rectangle,0,54,0,0,0,17,0,9,0,9
+lab4,org.example,ShapeDAO,45,82,13,1,16,29,8,8,1,8
+lab4,org.example,Triangle,0,89,0,0,0,23,0,11,0,11
+lab4,org.example,Color,7,15,0,0,2,2,1,1,1,1
